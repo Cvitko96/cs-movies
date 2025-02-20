@@ -1,0 +1,29 @@
+@use '../abstract' as *;
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__field {
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    border: 1px solid $color-base-500;
+    background: $color-base-500;
+    border-radius: 3px;
+
+    &:focus-visible {
+        outline: 2px solid $color-base-500;
+        border: 1px solid $color-primary-200;
+    }
+
+    &.error {
+        outline: 1px solid $color-error
+    }
+
+    &:disabled {
+        color: #B5B5B5;
+        background-color: $color-base-500;
+        outline: 1px solid $color-base-500;
+    }
+}

@@ -1,0 +1,32 @@
+@use '../abstract' as *;
+
+.movie-details {
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+
+    img {
+        width: 100px;
+
+        @media (min-width: 991px) {
+            width: 200px;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $color-border-grey;
+        gap: 10px;
+        
+        
+    }
+
+    .back-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}

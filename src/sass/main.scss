@@ -1,0 +1,37 @@
+@use 'abstract' as *;
+@use 'base' as *;
+@use 'components' as *;
+@use 'layout' as *;
+@use 'pages' as *;
+
+@font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi"),
+        url("../fonts/Satoshi/Satoshi-Variable.ttf") format("opentype");
+}
+
+body {
+    margin: 0;
+    font-family: Satoshi;
+    background-color: $color-bg-100;
+    color: $color-base-100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input[type='radio'] {
+    accent-color: $color-primary-100;
+}
+
+.background-highlight {
+    background-color: $color-highlight;
+}

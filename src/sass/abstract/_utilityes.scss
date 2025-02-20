@@ -1,0 +1,115 @@
+
+
+// margins
+
+@for $i from 0 through 10 {
+    .margin-#{$i} {
+        margin: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .margin-bottom-#{$i} {
+        margin-bottom: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .margin-top-#{$i} {
+        margin-top: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .margin-left-#{$i} {
+        margin-left: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .margin-right-#{$i} {
+        margin-right: $i*10px !important;
+    }
+}
+
+// paddings
+
+@for $i from 0 through 100 {
+    .padding-bottom-#{$i} {
+        padding-bottom: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .padding-top-#{$i} {
+        padding-top: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .padding-left-#{$i} {
+        padding-left: $i*10px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .padding-right-#{$i} {
+        padding-right: $i*10px !important;
+    }
+}
+
+// flex gap
+
+@for $i from 0 through 10 {
+    .flex-gap-#{$i} {
+        display: flex;
+        gap: $i*10px !important;
+    }
+}
+
+//utilityes
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.relative {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.min-width-250 {
+    min-width: 250px;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.width-auto {
+    width: auto !important;
+}
+
+.text-center {
+    text-align: center;
+}

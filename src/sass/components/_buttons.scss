@@ -1,0 +1,49 @@
+@use '../abstract' as *;
+
+.button-primary {
+    padding: 5px 15px;
+    background-color: $color-primary-100;
+    color: $color-base-600;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+
+    &--big {
+        font-size: 1.125rem;
+    }
+
+    &.icon {
+        padding: 5px;
+    }
+
+    .button-primary__icon {
+        display: block;
+    }
+
+    &:hover {
+        background-color: $color-primary-200;
+    }
+}
+
+.button-secondary {
+    padding: 5px 15px;
+    background-color: $color-base-600;
+    cursor: pointer;
+    border: 1px solid $color-base-200;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: $color-base-500;
+    }
+}
+
+.button-tertionary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-bg-100;
+    padding: 0px 5px 0px 10px;
+    gap: 5px;
+    border-radius: 99px;
+    border: 1px solid $color-base-400;
+}
