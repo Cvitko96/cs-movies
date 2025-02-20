@@ -1,7 +1,7 @@
 1. Pokretanje lokalno:
 
-> npm install
-> npm run dev
+      > npm install
+      > npm run dev
 
 2. Pokretanje putem dockera:
 
